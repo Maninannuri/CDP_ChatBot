@@ -26,8 +26,8 @@ An AI-powered chatbot that provides assistance with Customer Data Platforms (CDP
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/Chatbot-for-CDP.git
-cd Chatbot-for-CDP
+git clone https://github.com/Maninannuri/CDP_ChatBot.git
+cd CDP_Chatbot
 ```
 
 2. Create virtual environment:
