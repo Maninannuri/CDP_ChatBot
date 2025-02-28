@@ -1,0 +1,369 @@
+{
+  "articles": [
+    {
+      "title": "Creating User Profiles in mParticle",
+      "content": "\n                To create and manage user profiles in mParticle:\n                1. Implement identity management\n                2. Set up user attributes\n                3. Configure identity priority\n                4. Define user identity mapping\n                5. Enable cross-platform identity resolution\n                \n                Key concepts:\n                - Customer IDs\n                - Device IDs\n                - User attributes\n                - Identity resolution\n                ",
+      "url": "https://docs.mparticle.com/guides/idsync/"
+    },
+    {
+      "title": "Get Started",
+      "content": "[DOCS](/)\n\n[DOCS](/)\n\n  * [Home](/)\n  * [Guides](/guides/)\n  * [Developers](/developers/)\n  * [Integrations](/integrations/)\n  * [Changelog](https://changelog.mparticle.com)\n\n[Sign Up](https://www.mparticle.com/free-trial)\n\nmParticle is a customer data platform (CDP) that simplifies how you collect\nand connect your user data to hundreds of vendors without needing to manage\nmultiple integrations. We simplify the entire process for you, so you can do\nmore with your data without the hassle of complex integrations.\n\nNew to mParticle? Explore our UI with our interactive demo.\n\nExplore Demo\n\n### Get Started\n\n### 1\\. Collect\n\nSend your first event to mParticle\n\n[Go to 'Create an input'](/guides/getting-started/create-an-input)\n\n### 2\\. Validate\n\nEnsure data quality\n\n[Go to 'Verify'](/guides/getting-started/start-capturing-data/#verify-look-\nfor-incoming-data-in-the-live-stream)\n\n### 3\\. Connect\n\nForward data to a downstream services\n\n[Go to 'Connect an event output'](/guides/getting-started/connect-an-event-\noutput)\n\n### Do more with mParticle\n\n[\n\n##### Identity\n\nManage user identities with IDSync\n\n](/guides/idsync/introduction)\n\n[\n\n##### Data Master\n\nView and enforce your data quality\n\n](/guides/data-master/introduction)\n\n[\n\n##### Audiences\n\nEngage customer cohorts\n\n](/guides/personalization/audiences/overview)\n\n[\n\n##### Custom Rules\n\nTransform data as it enters and leaves mParticle\n\n](/guides/platform-guide/rules)\n\n[\n\n##### User Activity View\n\nGet a complete view of your users\n\n](/guides/platform-guide/activity/#user-activity)\n\n[\n\n##### User Privacy\n\nEnsure compliance with GDPR, CCPA, and your privacy policies\n\n](/guides/data-privacy-controls)\n\n[\n\n##### Events API\n\nSend events directly to mParticle\n\n](/developers/server/http)\n\n[\n\n##### Profile API\n\nReal-time API to drive user personalization\n\n](/developers/profile-api)\n\n[\n\n##### Firehose API\n\nBuild your own custom integrations\n\n](/developers/partners/firehose)\n\n### Inputs\n\nClient SDKs\n\n[Android\n\n](/developers/quickstart/android)\n\n[iOS\n\n](/developers/quickstart/ios)\n\n[Web\n\n](/developers/quickstart/web)[View all](/developers)\n\nEvents API\n\n[HTTP\n\n](/developers/server/http)\n\n[Node\n\n](/developers/server/node)\n\n[Python\n\n](/developers/server/python)\n\n[Ruby\n\n](/developers/server/ruby)\n\n[JSON Reference\n\n](/developers/server/json-reference)[View all](/developers/server/http)\n\nPartner Feeds\n\n[Branch\n\n](/integrations/branch-metrics/feed)\n\n[AppsFlyer\n\n](/integrations/appsflyer/feed)\n\n[Braze\n\n](/integrations/braze/feed)[View all](/integrations?isFeed=true)\n\nCustom CSV Feed\n\n[Custom CSV Feed\n\n](/guides/csv/import)[View all](/guides/csv/import)\n\n### Outputs\n\nEvents\n\n[Mixpanel\n\n](/integrations/mixpanel/event)\n\n[Amplitude\n\n](/integrations/amplitude/event)\n\n[Facebook\n\n](/integrations/facebook/event)\n\n[Braze\n\n](/integrations/braze/event)\n\n[AppsFlyer\n\n](/integrations/appsflyer/event)[View all](/integrations)\n\nAudience\n\n[Facebook\n\n](/integrations/facebook/audience)\n\n[Snapchat\n\n](/integrations/snapchat/audience)\n\n[Twitter\n\n](/integrations/twitter/audience)\n\n[Braze\n\n](/integrations/braze/audience)\n\n[Pinterest\n\n](/integrations/pinterest/audience)[View all](/integrations)\n\n[DOCS](/)Last Updated: 28/02/2025, 01:15:31\n\n### CDP\n\n  * [mParticle Docs](/)\n  * [Home](/)\n  * [Guides](/guides/)\n  * [Developers](/developers/)\n  * [Integrations](/integrations/)\n\n### Analytics\n\n  * [Analytics Docs](https://support.mparticle.com/hc/en-us/categories/11229686709645)\n  * [Overview](https://support.mparticle.com/hc/en-us/categories/11229701873421)\n  * [Getting Started](https://support.mparticle.com/hc/en-us/categories/11229686709645)\n  * [Developers](https://support.mparticle.com/hc/en-us/categories/11229725035533)\n  * [Expert Training](https://support.mparticle.com/hc/en-us/categories/11229720711693)\n\n### Predictive AI\n\n  * [Cortex Docs](https://www.vidora.com/docs/)\n  * [Overview](https://www.vidora.com/docs/?top-category=overview)\n  * [Getting Started](https://www.vidora.com/docs/?top-category=getting-started)\n  * [Developers](https://www.vidora.com/docs/?top-category=developer-docs)\n  * [Using Cortex](https://www.vidora.com/docs/?top-category=using-cortex)\n\n### Learn More\n\n  * [Blog](https://www.mparticle.com/blog/)\n  * [Podcast](https://www.mparticle.com/connected-podcast/)\n  * [Resources](https://www.mparticle.com/resources/)\n  * [Community](https://www.reddit.com/r/mparticle/)\n  * [Change log](https://changelog.mparticle.com/en)\n\n### Get in Touch\n\n  * [Help Center](https://support.mparticle.com/hc/en-us)\n  * [Demo](https://demo.mparticle.com/activity/app)\n  * [Become a Partner](https://www.mparticle.com/partner/)\n\n© 2025 mParticle, Inc. All rights\nreserved.[mParticle.com](https://www.mparticle.com/)[Privacy\nPolicy](https://www.mparticle.com/privacypolicy/)[Cookie\nPolicy](https://www.mparticle.com/cookie-policy/)Do Not Sell or Share My\nPersonal Data\n\n",
+      "url": "https://docs.mparticle.com/"
+    },
+    {
+      "title": "Guides",
+      "content": "\n\n[DOCS](/)\n\n[DOCS](/)\n\n  * [Home](/)\n  * [Guides](/guides/)\n  * [Developers](/developers/)\n  * [Integrations](/integrations/)\n  * [Changelog](https://changelog.mparticle.com)\n\n[Sign Up](https://www.mparticle.com/free-trial)\n\n# Guides\n\nThis section contains in-depth information about the mParticle platform and\nfeatures.\n\n  * For information about our SDKs, APIs, and tools, visit the [Developers](/developers/) section.\n  * For information about our latest product releases, visit the [mParticle Changelog](https://changelog.mparticle.com). \n\n[Platform Guide\n\n](/guides/platform-guide/)\n\nLearn to manage your data in the mParticle dashboard.\n\n[Activity](/guides/platform-guide/activity/)[Connections](/guides/platform-\nguide/connections/)[Data Filter](/guides/platform-guide/data-filter/)\n\n[Learn More\n\n](/guides/platform-guide/)\n\n[Getting Started\n\n](/guides/getting-started/)\n\nA from-scratch guide to get you started sending data to mParticle and\nforwarding it on to Event and Audience outputs.\n\n[Create Inputs](/guides/getting-started/create-an-input/)[Start capturing\ndata](/guides/getting-started/start-capturing-data/)[Connect an Event\nOutput](/guides/getting-started/connect-an-event-output/)[Create an\nAudience](/guides/getting-started/create-an-audience/)\n\n[Learn More\n\n](/guides/getting-started/)\n\n[Analytics\n\n](/guides/analytics/)\n\nUncover actionable insights across the entire customer journey without SQL or\nwriting a single line of code.\n\n[Introduction](/guides/analytics/introduction/)[Settings](/guides/analytics/settings/)\n\n[Learn More\n\n](/guides/analytics/)\n\n[IDSync\n\n](/guides/idsync/)\n\nLearn about mParticle’s premium Identity Management Framework\n\n[Introduction](/guides/idsync/introduction/)[Use Cases for\nIDSync](/guides/idsync/use-cases/)[Components of\nIDSync](/guides/idsync/components/)\n\n[Learn More\n\n](/guides/idsync/)\n\n[Data Master\n\n](/guides/data-master/)\n\nExplore every data point in your workspace and manage your data quality.\n\n[Data Master Introduction](/guides/data-\nmaster/introduction/)[Catalog](/guides/data-master/catalog/)[Live\nStream](/guides/data-master/live-stream/)[Data Plan](/guides/data-master/data-\nplanning/)\n\n[Learn More\n\n](/guides/data-master/)\n\n[Personalization\n\n](/guides/personalization/)\n\nCreate audiences and orchestrate customer journeys.\n\n[Profiles](/guides/personalization/profiles/)[Calculated\nAttributes](/guides/personalization/calculated-\nattributes/)[Audiences](/guides/personalization/audiences/)[Journeys](/guides/personalization/journeys/)[Predictive\nAudiences](/guides/personalization/predictive-audiences/)\n\n[Learn More\n\n](/guides/personalization/)\n\n[Warehouse Sync\n\n](/guides/data-warehouse-sync/)\n\nIngest data from third-party warehouses using mParticle's reverse-ETL\nsolution.\n\n[Learn More\n\n](/guides/data-warehouse-sync/)\n\n[Data Privacy Controls\n\n](/guides/data-privacy-controls/)\n\nCollect and leverage consumer consent and opt-outs towards compliance with\nGDPR and CCPA.\n\n[Learn More\n\n](/guides/data-privacy-controls/)\n\n[Data Subject Requests\n\n](/guides/data-subject-requests/)\n\nExplore how to respond to data subject requests as mandated by the GDPR and\nCCPA regulations.\n\n[Learn More\n\n](/guides/data-subject-requests/)\n\n[Default Service Limits\n\n](/guides/default-service-limits/)\n\nLearn about the default limits mParticle imposes on incoming data in order to\nprotect the performance of the mParticle dashboard and your app.\n\n[Learn More\n\n](/guides/default-service-limits/)\n\n[Feeds\n\n](/guides/feeds/)\n\nHarness third-party data sources with Feeds.\n\n[Learn More\n\n](/guides/feeds/)\n\n[Cross-Account Audience Sharing\n\n](/guides/cross-account-audience-sharing/)\n\nShare audience data with other accounts within your organization.\n\n[Learn More\n\n](/guides/cross-account-audience-sharing/)\n\n[Import Data with CSV Files\n\n](/guides/csv/)\n\nImport bulk data from a data warehouse or legacy system.\n\n[Learn More\n\n](/guides/csv/)\n\n[Glossary\n\n](/guides/glossary/)\n\nList of mParticle-specific terms and definitions.\n\n[Learn More\n\n](/guides/glossary/)\n\n[Video Index\n\n](/guides/video-index/)\n\nList of embedded videos.\n\n[Learn More\n\n](/guides/video-index/)\n\n[Analytics (Deprecated)\n\n](/guides/analytics-deprecated/)\n\nResources for legacy Analytics customers.\n\n[Learn More\n\n](/guides/analytics-deprecated/)\n\n[DOCS](/)Last Updated: 28/02/2025, 01:15:31\n\n### CDP\n\n  * [mParticle Docs](/)\n  * [Home](/)\n  * [Guides](/guides/)\n  * [Developers](/developers/)\n  * [Integrations](/integrations/)\n\n### Analytics\n\n  * [Analytics Docs](https://support.mparticle.com/hc/en-us/categories/11229686709645)\n  * [Overview](https://support.mparticle.com/hc/en-us/categories/11229701873421)\n  * [Getting Started](https://support.mparticle.com/hc/en-us/categories/11229686709645)\n  * [Developers](https://support.mparticle.com/hc/en-us/categories/11229725035533)\n  * [Expert Training](https://support.mparticle.com/hc/en-us/categories/11229720711693)\n\n### Predictive AI\n\n  * [Cortex Docs](https://www.vidora.com/docs/)\n  * [Overview](https://www.vidora.com/docs/?top-category=overview)\n  * [Getting Started](https://www.vidora.com/docs/?top-category=getting-started)\n  * [Developers](https://www.vidora.com/docs/?top-category=developer-docs)\n  * [Using Cortex](https://www.vidora.com/docs/?top-category=using-cortex)\n\n### Learn More\n\n  * [Blog](https://www.mparticle.com/blog/)\n  * [Podcast](https://www.mparticle.com/connected-podcast/)\n  * [Resources](https://www.mparticle.com/resources/)\n  * [Community](https://www.reddit.com/r/mparticle/)\n  * [Change log](https://changelog.mparticle.com/en)\n\n### Get in Touch\n\n  * [Help Center](https://support.mparticle.com/hc/en-us)\n  * [Demo](https://demo.mparticle.com/activity/app)\n  * [Become a Partner](https://www.mparticle.com/partner/)\n\n© 2025 mParticle, Inc. All rights\nreserved.[mParticle.com](https://www.mparticle.com/)[Privacy\nPolicy](https://www.mparticle.com/privacypolicy/)[Cookie\nPolicy](https://www.mparticle.com/cookie-policy/)Do Not Sell or Share My\nPersonal Data\n\n",
+      "url": "https://docs.mparticle.com/guides/"
+    },
+    {
+      "title": "Developer Docs",
+      "content": "\n\n[DOCS](/)\n\n[DOCS](/)\n\n  * [Home](/)\n  * [Guides](/guides/)\n  * [Developers](/developers/)\n  * [Integrations](/integrations/)\n  * [Changelog](https://changelog.mparticle.com)\n\n[Sign Up](https://www.mparticle.com/free-trial)\n\n# Developer Docs\n\nShortcuts:\n\n[JSON Reference](/developers/apis/json-reference/)[Events\nAPI](/developers/apis/http/)[Web SDK](/developers/client-sdks/web/)[iOS\nSDK](/developers/client-sdks/ios/)[Android SDK](/developers/client-\nsdks/android/)\n\nUse the mParticle SDKs and APIs to collect, organize, and manage customer\ndata.\n\n### Quickstart\n\nPick a platform, and follow the SDK quickstart tutorial to see how easy it is\nto collect data and forward it to a third-party integration.\n\n[Android](/developers/quickstart/android/overview/)\n\n[iOS](/developers/quickstart/ios/overview/)\n\n[Web](/developers/quickstart/web/overview/)\n\n### Learn about mParticle\n\nFrom event tracking to predicting user behavior, the developer docs guide you\nthrough each stage of building a complete mParticle implementation.\n\n[Read the docs](/developers/developersjourney/)\n\n## SDK\n\n### Client SDK\n\nTrack and send customer data directly from your app to any server.\n\n  * [Android](/developers/client-sdks/android/initialization/)\n  * [iOS](/developers/client-sdks/ios/initialization/)\n  * [Web](/developers/client-sdks/web/initialization/)\n  * [Alexa](/developers/client-sdks/alexa/)\n  * [AMP](/developers/client-sdks/amp/getting-started/)\n  * [Cordova](/developers/client-sdks/cordova/getting-started/)\n  * [Fire TV](/developers/client-sdks/android/initialization/)\n  * [Flutter](/developers/client-sdks/flutter/getting-started/)\n  * [React Native](/developers/client-sdks/react-native/getting-started/)\n  * [Roku](/developers/client-sdks/roku/getting-started/)\n  * [Unity](/developers/client-sdks/unity/getting-started/)\n  * [Xbox](/developers/client-sdks/uwp/getting-started/)\n\n### Server SDK\n\nTrack and send customer data between servers.\n\n  * [Go](/developers/server-sdks/go/)\n  * [Java](/developers/server-sdks/java/)\n  * [Node](/developers/server-sdks/node/)\n  * [Python](/developers/server-sdks/python/)\n  * [Ruby](/developers/server-sdks/ruby/)\n\n### Media SDK\n\nTrack media events and heartbeats across three platforms.\n\n  * [Android](/developers/client-sdks/android/media/)\n  * [iOS](/developers/client-sdks/ios/media/)\n  * [Web](/developers/client-sdks/web/media/)\n\n## API\n\n### Events API\n\nCollect data for contexts too complex for the Server SDK.\n\n[Learn more](/developers/apis/http/)\n\n### Bulk Profile Deletion API\n\nSave time when improving data quality by deleting data associated with sets of\ncustomers.\n\n[Learn more](/developers/apis/bulk-profile-deletion-api/)\n\n### Calculated Attributes API\n\nSend seeds for your calculated attributes.\n\n[Learn more](/developers/apis/ca-seeding-api/)\n\n### Custom Access Roles API\n\nCreate and manage custom sets of permissions for your mParticle account users.\n\n[Learn more](/developers/apis/custom-roles/)\n\n### Data Planning API\n\nDefine your data schema with Data Master.\n\n[Learn more](/developers/apis/dataplanning-api/)\n\n### Data Subject Request API\n\nSubmit data subject requests for GDPR and CCPA compliance via the OpenDSR API.\n\n[Learn more](/developers/apis/dsr-api/v3/)\n\n### ID Sync API\n\nMatch and resolve identities to build a single user profile for all user\nactivities.\n\n[Learn more](/developers/apis/idsync/)\n\n### Platform API\n\nProgrammatically update your mParticle inputs, outputs, filters, and more.\n\n[Learn more](/developers/apis/platform/)\n\n### Pixel Service API\n\nSend data to mParticle from your web site via a tracking pixel.\n\n[Learn more](/developers/apis/pixel-service/)\n\n### Profile API\n\nAccess user profiles at scale to power personalized experiences.\n\n[Learn more](/developers/apis/profile-api/)\n\n### Group Identity API\n\nCreate groups of users based on shared attributes.\n\n[Learn more](/developers/apis/group-identity-api/)\n\n### Warehouse Sync API\n\nGo beyond Reverse-ETL and build a headless data infrastructure.\n\n[Learn more](/developers/apis/warehouse-sync-api/overview/)\n\n## Tools\n\n### mParticle CLI\n\nAccess some mParticle features from a terminal.\n\n[Learn more](/developers/tools/cli/)\n\n### Smartype\n\nManage your data plans as code.\n\n[Learn more](/developers/tools/smartype/)\n\n### Smartype Linting\n\nLint your code against your data plan.\n\n[Learn more](/developers/tools/linting/)\n\n## More Guides\n\n### Data Hosting\n\nUnderstand how to reference the pod where your org is hosted.\n\n[Learn more](/developers/guides/data-localization/)\n\n### ComposeID\n\nUse IDSync to identify unknown users with data stored in Snowflake.\n\n[Learn more](/developers/apis/warehouse-sync-api/idsync/)\n\n### Glossary\n\nList of mParticle-specific terms.\n\n[Learn more](/guides/glossary/)\n\n### Partners\n\nBecome an mParticle partner and make your platform available for input or\noutput.\n\n[Learn more](/developers/guides/partners/introduction/)\n\n### Rules\n\nCleanse and transform data before it is output to another system.\n\n[Learn more](/developers/guides/rules/)\n\n### Segment Migration\n\nMigrate your Segment implementation to mParticle.\n\n[Learn more](/developers/guides/migration-segment/overview/)\n\n[DOCS](/)Last Updated: 28/02/2025, 01:15:31\n\n### CDP\n\n  * [mParticle Docs](/)\n  * [Home](/)\n  * [Guides](/guides/)\n  * [Developers](/developers/)\n  * [Integrations](/integrations/)\n\n### Analytics\n\n  * [Analytics Docs](https://support.mparticle.com/hc/en-us/categories/11229686709645)\n  * [Overview](https://support.mparticle.com/hc/en-us/categories/11229701873421)\n  * [Getting Started](https://support.mparticle.com/hc/en-us/categories/11229686709645)\n  * [Developers](https://support.mparticle.com/hc/en-us/categories/11229725035533)\n  * [Expert Training](https://support.mparticle.com/hc/en-us/categories/11229720711693)\n\n### Predictive AI\n\n  * [Cortex Docs](https://www.vidora.com/docs/)\n  * [Overview](https://www.vidora.com/docs/?top-category=overview)\n  * [Getting Started](https://www.vidora.com/docs/?top-category=getting-started)\n  * [Developers](https://www.vidora.com/docs/?top-category=developer-docs)\n  * [Using Cortex](https://www.vidora.com/docs/?top-category=using-cortex)\n\n### Learn More\n\n  * [Blog](https://www.mparticle.com/blog/)\n  * [Podcast](https://www.mparticle.com/connected-podcast/)\n  * [Resources](https://www.mparticle.com/resources/)\n  * [Community](https://www.reddit.com/r/mparticle/)\n  * [Change log](https://changelog.mparticle.com/en)\n\n### Get in Touch\n\n  * [Help Center](https://support.mparticle.com/hc/en-us)\n  * [Demo](https://demo.mparticle.com/activity/app)\n  * [Become a Partner](https://www.mparticle.com/partner/)\n\n© 2025 mParticle, Inc. All rights\nreserved.[mParticle.com](https://www.mparticle.com/)[Privacy\nPolicy](https://www.mparticle.com/privacypolicy/)[Cookie\nPolicy](https://www.mparticle.com/cookie-policy/)Do Not Sell or Share My\nPersonal Data\n\n",
+      "url": "https://docs.mparticle.com/developers/"
+    },
+    {
+      "title": "Client SDK",
+      "content": "\n\n### Client SDK\n\nTrack and send customer data directly from your app to any server.\n\n  * [Android](/developers/client-sdks/android/initialization/)\n  * [iOS](/developers/client-sdks/ios/initialization/)\n  * [Web](/developers/client-sdks/web/initialization/)\n  * [Alexa](/developers/client-sdks/alexa/)\n  * [AMP](/developers/client-sdks/amp/getting-started/)\n  * [Cordova](/developers/client-sdks/cordova/getting-started/)\n  * [Fire TV](/developers/client-sdks/android/initialization/)\n  * [Flutter](/developers/client-sdks/flutter/getting-started/)\n  * [React Native](/developers/client-sdks/react-native/getting-started/)\n  * [Roku](/developers/client-sdks/roku/getting-started/)\n  * [Unity](/developers/client-sdks/unity/getting-started/)\n  * [Xbox](/developers/client-sdks/uwp/getting-started/)\n\n### Server SDK\n\nTrack and send customer data between servers.\n\n  * [Go](/developers/server-sdks/go/)\n  * [Java](/developers/server-sdks/java/)\n  * [Node](/developers/server-sdks/node/)\n  * [Python](/developers/server-sdks/python/)\n  * [Ruby](/developers/server-sdks/ruby/)\n\n### Media SDK\n\nTrack media events and heartbeats across three platforms.\n\n  * [Android](/developers/client-sdks/android/media/)\n  * [iOS](/developers/client-sdks/ios/media/)\n  * [Web](/developers/client-sdks/web/media/)\n\n",
+      "url": "https://docs.mparticle.com/developers/"
+    },
+    {
+      "title": "Untitled",
+      "content": "\n\n  * [Android](/developers/client-sdks/android/initialization/)\n  * [iOS](/developers/client-sdks/ios/initialization/)\n  * [Web](/developers/client-sdks/web/initialization/)\n  * [Alexa](/developers/client-sdks/alexa/)\n  * [AMP](/developers/client-sdks/amp/getting-started/)\n  * [Cordova](/developers/client-sdks/cordova/getting-started/)\n  * [Fire TV](/developers/client-sdks/android/initialization/)\n  * [Flutter](/developers/client-sdks/flutter/getting-started/)\n  * [React Native](/developers/client-sdks/react-native/getting-started/)\n  * [Roku](/developers/client-sdks/roku/getting-started/)\n  * [Unity](/developers/client-sdks/unity/getting-started/)\n  * [Xbox](/developers/client-sdks/uwp/getting-started/)\n\n",
+      "url": "https://docs.mparticle.com/developers/"
+    },
+    {
+      "title": "Server SDK",
+      "content": "\n\n### Server SDK\n\nTrack and send customer data between servers.\n\n  * [Go](/developers/server-sdks/go/)\n  * [Java](/developers/server-sdks/java/)\n  * [Node](/developers/server-sdks/node/)\n  * [Python](/developers/server-sdks/python/)\n  * [Ruby](/developers/server-sdks/ruby/)\n\n",
+      "url": "https://docs.mparticle.com/developers/"
+    },
+    {
+      "title": "Events API",
+      "content": "\n\n### Events API\n\nCollect data for contexts too complex for the Server SDK.\n\n[Learn more](/developers/apis/http/)\n\n### Bulk Profile Deletion API\n\nSave time when improving data quality by deleting data associated with sets of\ncustomers.\n\n[Learn more](/developers/apis/bulk-profile-deletion-api/)\n\n### Calculated Attributes API\n\nSend seeds for your calculated attributes.\n\n[Learn more](/developers/apis/ca-seeding-api/)\n\n### Custom Access Roles API\n\nCreate and manage custom sets of permissions for your mParticle account users.\n\n[Learn more](/developers/apis/custom-roles/)\n\n### Data Planning API\n\nDefine your data schema with Data Master.\n\n[Learn more](/developers/apis/dataplanning-api/)\n\n### Data Subject Request API\n\nSubmit data subject requests for GDPR and CCPA compliance via the OpenDSR API.\n\n[Learn more](/developers/apis/dsr-api/v3/)\n\n### ID Sync API\n\nMatch and resolve identities to build a single user profile for all user\nactivities.\n\n[Learn more](/developers/apis/idsync/)\n\n### Platform API\n\nProgrammatically update your mParticle inputs, outputs, filters, and more.\n\n[Learn more](/developers/apis/platform/)\n\n### Pixel Service API\n\nSend data to mParticle from your web site via a tracking pixel.\n\n[Learn more](/developers/apis/pixel-service/)\n\n### Profile API\n\nAccess user profiles at scale to power personalized experiences.\n\n[Learn more](/developers/apis/profile-api/)\n\n### Group Identity API\n\nCreate groups of users based on shared attributes.\n\n[Learn more](/developers/apis/group-identity-api/)\n\n### Warehouse Sync API\n\nGo beyond Reverse-ETL and build a headless data infrastructure.\n\n[Learn more](/developers/apis/warehouse-sync-api/overview/)\n\n",
+      "url": "https://docs.mparticle.com/developers/"
+    },
+    {
+      "title": "Bulk Profile Deletion API",
+      "content": "\n\n### Bulk Profile Deletion API\n\nSave time when improving data quality by deleting data associated with sets of\ncustomers.\n\n[Learn more](/developers/apis/bulk-profile-deletion-api/)\n\n",
+      "url": "https://docs.mparticle.com/developers/"
+    },
+    {
+      "title": "Data Subject Request API",
+      "content": "\n\n### Data Subject Request API\n\nSubmit data subject requests for GDPR and CCPA compliance via the OpenDSR API.\n\n[Learn more](/developers/apis/dsr-api/v3/)\n\n",
+      "url": "https://docs.mparticle.com/developers/"
+    },
+    {
+      "title": "ID Sync API",
+      "content": "\n\n### ID Sync API\n\nMatch and resolve identities to build a single user profile for all user\nactivities.\n\n[Learn more](/developers/apis/idsync/)\n\n",
+      "url": "https://docs.mparticle.com/developers/"
+    },
+    {
+      "title": "mParticle CLI",
+      "content": "\n\n### mParticle CLI\n\nAccess some mParticle features from a terminal.\n\n[Learn more](/developers/tools/cli/)\n\n### Smartype\n\nManage your data plans as code.\n\n[Learn more](/developers/tools/smartype/)\n\n### Smartype Linting\n\nLint your code against your data plan.\n\n[Learn more](/developers/tools/linting/)\n\n",
+      "url": "https://docs.mparticle.com/developers/"
+    },
+    {
+      "title": "Data Hosting",
+      "content": "\n\n### Data Hosting\n\nUnderstand how to reference the pod where your org is hosted.\n\n[Learn more](/developers/guides/data-localization/)\n\n### ComposeID\n\nUse IDSync to identify unknown users with data stored in Snowflake.\n\n[Learn more](/developers/apis/warehouse-sync-api/idsync/)\n\n### Glossary\n\nList of mParticle-specific terms.\n\n[Learn more](/guides/glossary/)\n\n### Partners\n\nBecome an mParticle partner and make your platform available for input or\noutput.\n\n[Learn more](/developers/guides/partners/introduction/)\n\n### Rules\n\nCleanse and transform data before it is output to another system.\n\n[Learn more](/developers/guides/rules/)\n\n### Segment Migration\n\nMigrate your Segment implementation to mParticle.\n\n[Learn more](/developers/guides/migration-segment/overview/)\n\n",
+      "url": "https://docs.mparticle.com/developers/"
+    },
+    {
+      "title": "Integrations",
+      "content": "\n\n[DOCS](/)\n\n[DOCS](/)\n\n  * [Home](/)\n  * [Guides](/guides/)\n  * [Developers](/developers/)\n  * [Integrations](/integrations/)\n  * [Changelog](https://changelog.mparticle.com)\n\n[Sign Up](https://www.mparticle.com/free-trial)\n\n#### Documentation\n\nFilter by Category[All](/integrations)\n\nAdvertising\n\n[Data Onboarding](/integrations/?category=Data%20Onboarding)\n\n[Re-Targeting](/integrations/?category=Re-Targeting)\n\n[User Acquisition](/integrations/?category=User%20Acquisition)\n\nAnalytics\n\n[A/B Testing](/integrations/?category=A%2FB%20Testing)\n\n[Attribution](/integrations/?category=Attribution)\n\n[Conversion Tracking](/integrations/?category=Conversion%20Tracking)\n\n[Crash Reporting](/integrations/?category=Crash%20Reporting)\n\n[Custom Feeds](/integrations/?category=Custom%20Feeds)\n\n[Feature Flagging](/integrations/?category=Feature%20Flagging)\n\n[Location](/integrations/?category=Location)\n\n[Monitoring](/integrations/?category=Monitoring)\n\n[Predictive Analytics](/integrations/?category=Predictive%20Analytics)\n\n[User Analytics](/integrations/?category=User%20Analytics)\n\nCustomer Service\n\n[Customer Support](/integrations/?category=Customer%20Support)\n\n[Helpdesk](/integrations/?category=Helpdesk)\n\n[User Feedback](/integrations/?category=User%20Feedback)\n\nData Warehousing\n\n[Business Intelligence](/integrations/?category=Business%20Intelligence)\n\n[DMP](/integrations/?category=DMP)\n\n[Raw Data Export](/integrations/?category=Raw%20Data%20Export)\n\nFinance\n\n[Commerce](/integrations/?category=Commerce)\n\n[Payments](/integrations/?category=Payments)\n\nMarketing\n\n[Affiliate Marketing](/integrations/?category=Affiliate%20Marketing)\n\n[CRM](/integrations/?category=CRM)\n\n[Customer Engagement](/integrations/?category=Customer%20Engagement)\n\n[Data Enrichment](/integrations/?category=Data%20Enrichment)\n\n[Deep Linking](/integrations/?category=Deep%20Linking)\n\n[Loyalty and Rewards](/integrations/?category=Loyalty%20and%20Rewards)\n\n[Personalization](/integrations/?category=Personalization)\n\n[Tag Management](/integrations/?category=Tag%20Management)\n\nPrivacy\n\n[Consent Management](/integrations/?category=Consent%20Management)\n\n[Data Subject Request](/integrations/?category=Data%20Subject%20Request)\n\nSecurity\n\n[Access Management](/integrations/?category=Access%20Management)\n\n[Fraud Monitoring](/integrations/?category=Fraud%20Monitoring)\n\n# Integrations\n\nConnect your customer data to the leading marketing, analytics, and data\nwarehousing solutions with just a few clicks.\n\nNote: New Partners, please[\nregister](https://partners.mparticle.com/prm/English/s/applicant).\n\nFilter by integration type\n\n[![](https://static.mparticle.com/providerimg/forwarderlogo_1168_TheFilter.svg)](/integrations/24i/)[![](https://static.mparticle.com/providerimg/forwarderlogo_1025_Aarki.svg)](/integrations/aarki/)[![](https://static.mparticle.com/providerimg/forwarderlogo_1041_AbakusInc.svg)](/integrations/abakus/)[![](https://static.mparticle.com/providerimg/forwarderlogo_1264_ABTasty.svg)](/integrations/abtasty/)[![](https://static.mparticle.com/providerimg/forwarderlogo_240_Actable.svg)](/integrations/actable/)[![](https://static.mparticle.com/providerimg/forwarderlogo_1079_Adikteev.svg)](/integrations/adikteev/)[![](https://static.mparticle.com/providerimg/forwarderlogo_68_Adjust.svg)](/integrations/adjust/)[![](https://static.mparticle.com/providerimg/forwarderlogo_1221_AdMedia.svg)](/integrations/admedia/)[![](https://static.mparticle.com/providerimg/forwarderlogo_110_AdobeAudienceManager.svg)](/integrations/adobe-\naudience-\nmanager/)[![](https://static.mparticle.com/providerimg/forwarderlogo_146_AdobeCampaignManager.svg)](/integrations/adobe-\ncampaign-manager/)[![](/images/ProviderImages/adobe-marketing-cloud-\nmid.svg)](/integrations/adobe/)[![](https://static.mparticle.com/providerimg/forwarderlogo_148_AdobeTarget.svg)](/integrations/adobe-\ntarget/)[![](https://static.mparticle.com/providerimg/forwarderlogo_217_AdPredictive.svg)](/integrations/adpredictive/)[![](https://static.mparticle.com/providerimg/forwarderlogo_74_AgilOne.svg)](/integrations/agilone/)[![](https://static.mparticle.com/providerimg/forwarderlogo_25_UrbanAirship.svg)](/integrations/airship/)[![](https://static.mparticle.com/providerimg/forwarderlogo_150_Algolia.svg)](/integrations/algolia/)[![](https://static.mparticle.com/providerimg/forwarderlogo_1143_AlgoLift.svg)](/integrations/algolift/)[![](https://static.mparticle.com/providerimg/forwarderlogo_1004_Alooma.svg)](/integrations/alooma/)[![](https://static.mparticle.com/providerimg/forwarderlogo_145_AmazonAdvertising.svg)](/integrations/amazon-\nadvertising/)[![](https://static.mparticle.com/providerimg/forwarderlogo_95_AmazonKinesis.svg)](/integrations/amazon-\nkinesis/)[![](https://static.mparticle.com/providerimg/forwarderlogo_125_AmazonKinesisFirehose.svg)](/integrations/amazon-\nkinesis-\nfirehose/)[![](https://static.mparticle.com/providerimg/forwarderlogo_9_Redshift.svg)](/integrations/amazon-\nredshift/)[![](https://static.mparticle.com/providerimg/forwarderlogo_29_AmazonS3Forwarder.svg)](/integrations/amazons3/)[![](https://static.mparticle.com/providerimg/forwarderlogo_93_AmazonSNS.svg)](/integrations/amazonsns/)[![](https://static.mparticle.com/providerimg/forwarderlogo_94_AmazonSQS.svg)](/integrations/amazonsqs/)[![](https://static.mparticle.com/providerimg/forwarderlogo_1190_Amobee.svg)](/integrations/amobee/)[![](https://static.mparticle.com/providerimg/forwarderlogo_53_Amplitude.svg)](/integrations/amplitude/)[![](https://static.mparticle.com/providerimg/forwarderlogo_1048_Ampush.svg)](/integrations/ampush/)[![](https://static.mparticle.com/providerimg/forwarderlogo_1231_Indicative.svg)](/integrations/analytics/)[![](https://static.mparticle.com/providerimg/forwarderlogo_1119_Anodot.svg)](/integrations/anodot/)[![](https://static.mparticle.com/providerimg/forwarderlogo_239_Antavo.svg)](/integrations/antavo/)[![](https://static.mparticle.com/providerimg/forwarderlogo_60_AppLovin.svg)](/integrations/applovin/)[![](https://static.mparticle.com/providerimg/forwarderlogo_92_AppsFlyer.svg)](/integrations/appsflyer/)[![](https://static.mparticle.com/providerimg/forwarderlogo_97_Apptentive.svg)](/integrations/apptentive/)[![](https://static.mparticle.com/providerimg/forwarderlogo_105_Apptimize.svg)](/integrations/apptimize/)[![](https://static.mparticle.com/providerimg/forwarderlogo_86_CrittercismEventForwarder.svg)](/integrations/apteligent/)[![](https://static.mparticle.com/providerimg/forwarderlogo_220_Attentive.svg)](/integrations/attentive/)[![](https://static.mparticle.com/providerimg/forwarderlogo_1093_Attractor.svg)](/integrations/attractor/)[![](https://static.mparticle.com/providerimg/forwarderlogo_1115_Batch.svg)](/integrations/batch/)[![](https://static.mparticle.com/providerimg/forwarderlogo_1173_Bidease.svg)](/integrations/bidease/)[![](https://static.mparticle.com/providerimg/forwarderlogo_107_Bing.svg)](/integrations/bing/)[![](https://static.mparticle.com/providerimg/forwarderlogo_1112_Bluecore.svg)](/integrations/bluecore/)[![](https://static.mparticle.com/providerimg/forwarderlogo_219_Bluedot.svg)](/integrations/bluedot/)[![](https://static.mparticle.com/providerimg/forwarderlogo_1144_Blueshift.svg)](/integrations/blueshift/)[![](https://static.mparticle.com/providerimg/forwarderlogo_80_BranchMetrics.svg)](/integrations/branch-\nmetrics/)[![](/images/forwarderlogo_80_BranchMetricsS2S.svg)](/integrations/branch-\nmetrics-\nserver/)[![](https://static.mparticle.com/providerimg/forwarderlogo_28_Appboy.svg)](/integrations/braze/)[![](https://static.mparticle.com/providerimg/forwarderlogo_16_BugsnagEventForwarder.svg)](/integrations/bugsnag/)[![](https://static.mparticle.com/providerimg/forwarderlogo_1022_Button.svg)](/integrations/button/)[![](https://static.mparticle.com/providerimg/forwarderlogo_1222_Cadent.svg)](/integrations/cadent/)[![](https://static.mparticle.com/providerimg/forwarderlogo_237_Census.svg)](/integrations/census/)[![](https://static.mparticle.com/providerimg/forwarderlogo_1192_ciValue.svg)](/integrations/civalue/)[![](https://static.mparticle.com/providerimg/forwarderlogo_135_CleverTap.svg)](/integrations/clevertap/)[![](https://static.mparticle.com/providerimg/forwarderlogo_39_comScoreForwarder.svg)](/integrations/comscore/)[![](https://static.mparticle.com/providerimg/forwarderlogo_1088_Conversant.svg)](/integrations/conversant/)[![](https://static.mparticle.com/providerimg/forwarderlogo_142_Cordial.svg)](/integrations/cordial/)[![](https://static.mparticle.com/providerimg/forwarderlogo_1230_Vidora.svg)](/integrations/cortex/)[![](https://static.mparticle.com/providerimg/forwarderlogo_1010_Criteo.svg)](/integrations/criteo/)[![](https://static.mparticle.com/providerimg/forwarderlogo_1195_CrossingMinds.svg)](/integrations/crossing-\nminds/)[![](/images/ProviderImages/custom-feed-\nlogo.svg)](/integrations/custom-\nfeed/)[![](https://static.mparticle.com/providerimg/forwarderlogo_22_CustomerIoForwarder.svg)](/integrations/customerio/)[![](https://static.mparticle.com/providerimg/forwarderlogo_1156_CustomerGlu.svg)](/integrations/customerglu/)[![](https://static.mparticle.com/providerimg/forwarderlogo_245_Databricks.svg)](/integrations/databricks/)[![](https://static.mparticle.com/providerimg/forwarderlogo_59_Datadog.svg)](/integrations/datadog/)[![](https://static.mparticle.com/providerimg/forwarderlogo_168_Didomi.svg)](/integrations/didomi/)[![](https://static.mparticle.com/providerimg/forwarderlogo_1009_Dynalyst.svg)](/integrations/dynalyst/)[![](https://static.mparticle.com/providerimg/forwarderlogo_128_DynamicYield.svg)](/integrations/dynamic-\nyield/)[![](https://static.mparticle.com/providerimg/forwarderlogo_1186_Edge226.svg)](/integrations/edge226/)[](/integrations/emarsys/)[![](https://static.mparticle.com/providerimg/forwarderlogo_1184_Epsilon.svg)](/integrations/epsilon/)[![](https://static.mparticle.com/providerimg/forwarderlogo_1161_Everflow.svg)](/integrations/everflow/)[![](https://static.mparticle.com/providerimg/forwarderlogo_45_Facebook.svg)](/integrations/facebook/)[![](https://static.mparticle.com/providerimg/forwarderlogo_139_FacebookOfflineConversions.svg)](/integrations/facebook-\noffline-\nconversions/)[![](https://static.mparticle.com/providerimg/forwarderlogo_1035_Fiksu.svg)](/integrations/fiksu/)[![](https://static.mparticle.com/providerimg/forwarderlogo_83_FlurryEventForwarder.svg)](/integrations/flurry/)[![](https://static.mparticle.com/providerimg/forwarderlogo_1134_Flybits.svg)](/integrations/flybits/)[![](https://static.mparticle.com/providerimg/forwarderlogo_64_ForeSee.svg)](/integrations/foresee/)[![](https://static.mparticle.com/providerimg/forwarderlogo_228_Formation.svg)](/integrations/formation/)[![](https://static.mparticle.com/providerimg/forwarderlogo_1152_Foursquare.svg)](/integrations/foursquare/)[![](https://static.mparticle.com/providerimg/forwarderlogo_1193_FreeWheelDataSuite.svg)](/integrations/freewheel/)[![](https://static.mparticle.com/providerimg/forwarderlogo_174_GoogleDV360AndAdManager.svg)](/integrations/google-\nad-\nmanager/)[![](https://static.mparticle.com/providerimg/forwarderlogo_82_GoogleAdWords.svg)](/integrations/google-\nads/)[![](https://static.mparticle.com/providerimg/forwarderlogo_6_GoogleAnalyticsEventForwarder.svg)](/integrations/google-\nanalytics/)[![](https://static.mparticle.com/providerimg/forwarderlogo_160_GoogleAnalytics4.svg)](/integrations/google-\nanalytics-4/)[![](https://static.mparticle.com/providerimg/forwarderlogo_136_GoogleFirebase.svg)](/integrations/firebase/)[![](https://static.mparticle.com/providerimg/forwarderlogo_113_BigQuery.svg)](/integrations/google-\nbigquery/)[![](https://static.mparticle.com/providerimg/forwarderlogo_122_GoogleCloudStorage.svg)](/integrations/google-\ncloud-\nstorage/)[![](https://static.mparticle.com/providerimg/forwarderlogo_175_GoogleEnhancedConversions.svg)](/integrations/google-\nenhanced-\nconversions/)[![](https://static.mparticle.com/providerimg/forwarderlogo_41_DoubleclickDFP.svg)](/integrations/google-\nmarketing-\nplatform/)[![](https://static.mparticle.com/providerimg/forwarderlogo_151_DoubleClickOffline.svg)](/integrations/google-\nmarketing-platform-\noffline/)[![](https://static.mparticle.com/providerimg/forwarderlogo_120_GooglePubSub.svg)](/integrations/google-\npubsub/)[![](https://static.mparticle.com/providerimg/forwarderlogo_140_GoogleTagManager.svg)](/integrations/google-\ntag-\nmanager/)[![](https://static.mparticle.com/providerimg/forwarderlogo_31_Heap.svg)](/integrations/heap/)[![](https://static.mparticle.com/providerimg/forwarderlogo_226_Herow.svg)](/integrations/herow/)[![](https://static.mparticle.com/providerimg/forwarderlogo_235_Hightouch.svg)](/integrations/hightouch/)[![](https://static.mparticle.com/providerimg/forwarderlogo_1233_Hyperlocology.svg)](/integrations/hyperlocology/)[![](https://static.mparticle.com/providerimg/forwarderlogo_1082_Ibotta.svg)](/integrations/ibotta/)[![](https://static.mparticle.com/providerimg/forwarderlogo_1059_Impact.svg)](/integrations/impact/)[![](https://static.mparticle.com/providerimg/forwarderlogo_1019_Indicative.svg)](/integrations/indicative-\ndeprecated/)[![](https://static.mparticle.com/providerimg/forwarderlogo_1205_InMarket.svg)](/integrations/inmarket/)[![](https://static.mparticle.com/providerimg/forwarderlogo_1015_InMobi.svg)](/integrations/inmobi/)[![](https://static.mparticle.com/providerimg/forwarderlogo_1245_Insider.svg)](/integrations/insider/)[![](https://static.mparticle.com/providerimg/forwarderlogo_61_Inspectlet.svg)](/integrations/inspectlet/)[![](https://static.mparticle.com/providerimg/forwarderlogo_18_IntercomEventForwarder.svg)](/integrations/intercom/)[![](https://static.mparticle.com/providerimg/forwarderlogo_1147_iPost.svg)](/integrations/ipost/)[![](https://static.mparticle.com/providerimg/forwarderlogo_1034_ironSource.svg)](/integrations/ironsource/)[![](https://static.mparticle.com/providerimg/forwarderlogo_1003_Iterable.svg)](/integrations/iterable/)[![](https://static.mparticle.com/providerimg/forwarderlogo_1040_Jampp.svg)](/integrations/jampp/)[![](https://static.mparticle.com/providerimg/forwarderlogo_138_Kafka.svg)](/integrations/kafka/)[![](https://static.mparticle.com/providerimg/forwarderlogo_1038_Kayzen.svg)](/integrations/kayzen/)[![](https://static.mparticle.com/providerimg/forwarderlogo_24_KISSmetricsForwarder.svg)](/integrations/kissmetrics/)[![](https://static.mparticle.com/providerimg/forwarderlogo_156_Klaviyo.svg)](/integrations/klaviyo/)[![](https://static.mparticle.com/providerimg/forwarderlogo_37_KochavaForwarder.svg)](/integrations/kochava/)[![](https://static.mparticle.com/providerimg/forwarderlogo_1177_Kubit.svg)](/integrations/kubit/)[![](https://static.mparticle.com/providerimg/forwarderlogo_214_LaunchDarkly.svg)](/integrations/launchdarkly/)[![](https://static.mparticle.com/providerimg/forwarderlogo_98_Leanplum.svg)](/integrations/leanplum/)[![](https://static.mparticle.com/providerimg/forwarderlogo_1027_LifeStreet.svg)](/integrations/lifestreet/)[![](https://static.mparticle.com/providerimg/forwarderlogo_1023_Liftoff.svg)](/integrations/liftoff/)[![](https://static.mparticle.com/providerimg/forwarderlogo_1243_LiveLike.svg)](/integrations/livelike/)[![](https://static.mparticle.com/providerimg/forwarderlogo_149_LiveRamp.svg)](/integrations/liveramp/)[![](https://static.mparticle.com/providerimg/forwarderlogo_84_LocalyticsEventForwarder.svg)](/integrations/localytics/)[![](https://static.mparticle.com/providerimg/forwarderlogo_1175_MadHive.svg)](/integrations/madhive/)[![](https://static.mparticle.com/providerimg/forwarderlogo_1179_mAdmeTechnologies.svg)](/integrations/madme/)[![](https://static.mparticle.com/providerimg/forwarderlogo_20_MailChimp.svg)](/integrations/mailchimp/)[![](https://static.mparticle.com/providerimg/forwarderlogo_1265_Marigold.svg)](/integrations/marigold/)[![](https://static.mparticle.com/providerimg/forwarderlogo_1160_Mautic.svg)](/integrations/mautic/)[![](https://static.mparticle.com/providerimg/forwarderlogo_1225_MediaMath.svg)](/integrations/mediamath/)[![](https://static.mparticle.com/providerimg/forwarderlogo_1080_Mediasmart.svg)](/integrations/mediasmart/)[![](https://static.mparticle.com/providerimg/forwarderlogo_153_AzureBlobStorage.svg)](/integrations/azure-\nblob-\nstorage/)[![](https://static.mparticle.com/providerimg/forwarderlogo_127_AzureEventHub.svg)](/integrations/microsoft-\nazure-event-\nhubs/)[![](https://static.mparticle.com/providerimg/forwarderlogo_1164_Mintegral.svg)](/integrations/mintegral/)[![](https://static.mparticle.com/providerimg/forwarderlogo_10_MixpanelEventForwarder.svg)](/integrations/mixpanel/)[![](https://static.mparticle.com/providerimg/forwarderlogo_1167_MoEngage.svg)](/integrations/moengage/)[![](https://static.mparticle.com/providerimg/forwarderlogo_1106_Moloco.svg)](/integrations/moloco/)[![](https://static.mparticle.com/providerimg/forwarderlogo_1096_Monetate.svg)](/integrations/monetate/)[![](https://static.mparticle.com/providerimg/forwarderlogo_1208_MovableInk.svg)](/integrations/movableink/)[![](https://static.mparticle.com/providerimg/forwarderlogo_173_MovableInk.svg)](/integrations/movableink-v2/)[![](https://static.mparticle.com/providerimg/forwarderlogo_1263_Multiplied.svg)](/integrations/multiplied/)[![](https://static.mparticle.com/providerimg/forwarderlogo_1069_myTarget\\(MailruGroup\\).svg)](/integrations/mytarget/)[![](https://static.mparticle.com/providerimg/forwarderlogo_229_Nami.svg)](/integrations/nami-\nml/)[![](https://static.mparticle.com/providerimg/forwarderlogo_75_Nanigans.svg)](/integrations/nanigans/)[![](https://static.mparticle.com/providerimg/forwarderlogo_1101_Narrative.svg)](/integrations/narrative/)[![](https://static.mparticle.com/providerimg/forwarderlogo_144_Aloha.svg)](/integrations/ncr-\naloha/)[![](https://static.mparticle.com/providerimg/forwarderlogo_147_Neura.svg)](/integrations/neura/)[![](https://static.mparticle.com/providerimg/forwarderlogo_134_OneTrust.svg)](/integrations/onetrust/)[![](https://static.mparticle.com/providerimg/forwarderlogo_54_Optimizely.svg)](/integrations/optimizely/)[![](https://static.mparticle.com/providerimg/forwarderlogo_81_BlueKai.svg)](/integrations/oracle-\nbluekai/)[![](https://static.mparticle.com/providerimg/forwarderlogo_102_OracleResponsys.svg)](/integrations/oracle-\nresponsys/)[![](https://static.mparticle.com/providerimg/forwarderlogo_241_Paytronix.svg)](/integrations/paytronix/)[![](https://static.mparticle.com/providerimg/forwarderlogo_1194_Personaly.svg)](/integrations/persona/)[![](https://static.mparticle.com/providerimg/forwarderlogo_1227_PersonifyXP.svg)](/integrations/personify-\nxp/)[![](https://static.mparticle.com/providerimg/forwarderlogo_9004_PieEye.svg)](/integrations/pieeye/)[![](https://static.mparticle.com/providerimg/forwarderlogo_211_Movement.svg)](/integrations/pilgrim/)[![](https://static.mparticle.com/providerimg/forwarderlogo_111_Pinterest.svg)](/integrations/pinterest/)[![](https://static.mparticle.com/providerimg/forwarderlogo_1068_Plarin.svg)](/integrations/plarin/)[![](https://static.mparticle.com/providerimg/forwarderlogo_1128_Postie.svg)](/integrations/postie/)[![](/images/ProviderImages/primer-\nlogo.svg)](/integrations/primer/)[![](https://static.mparticle.com/providerimg/forwarderlogo_223_Punchh.svg)](/integrations/punchh/)[![](https://static.mparticle.com/providerimg/forwarderlogo_1255_Pushwoosh.svg)](/integrations/pushwoosh/)[![](https://static.mparticle.com/providerimg/forwarderlogo_162_Qualtrics.svg)](/integrations/qualtrics/)[![](https://static.mparticle.com/providerimg/forwarderlogo_89_Quantcast.svg)](/integrations/quantcast/)[![](https://static.mparticle.com/providerimg/forwarderlogo_117_Radar.svg)](/integrations/radar/)[![](https://static.mparticle.com/providerimg/forwarderlogo_1275_Reddit.svg)](/integrations/reddit/)[![](https://static.mparticle.com/providerimg/forwarderlogo_163_Regal.svg)](/integrations/regal/)[![](https://static.mparticle.com/providerimg/forwarderlogo_1006_Remerge.svg)](/integrations/remerge/)[![](https://static.mparticle.com/providerimg/forwarderlogo_1172_RetinaAI.svg)](/integrations/retina-\nai/)[![](https://static.mparticle.com/providerimg/forwarderlogo_112_RevealMobile.svg)](/integrations/reveal-\nmobile/)[![](https://static.mparticle.com/providerimg/forwarderlogo_227_RevenueCat.svg)](/integrations/revenuecat/)[![](https://static.mparticle.com/providerimg/forwarderlogo_1277_Rokt.svg)](/integrations/rokt/)[![](https://static.mparticle.com/providerimg/forwarderlogo_1153_RTBHouse.svg)](/integrations/rtb-\nhouse/)[![](https://static.mparticle.com/providerimg/forwarderlogo_1095_Sailthru.svg)](/integrations/sailthru/)[![](/images/ProviderImages/salesforce-\nemail-logo.svg)](/integrations/salesforce-\nemail/)[![](/images/ProviderImages/salesforce-mobile-push-\nlogo.svg)](/integrations/salesforce-mobile-\npush/)[![](https://static.mparticle.com/providerimg/forwarderlogo_1100_SambaTV.svg)](/integrations/samba-\ntv/)[![](https://static.mparticle.com/providerimg/forwarderlogo_1132_Scalarr.svg)](/integrations/scalarr/)[![](https://static.mparticle.com/providerimg/forwarderlogo_71_SendGrid.svg)](/integrations/sendgrid/)[![](https://static.mparticle.com/providerimg/forwarderlogo_212_SessionM.svg)](/integrations/sessionm/)[![](https://static.mparticle.com/providerimg/forwarderlogo_1154_ShareThis.svg)](/integrations/sharethis/)[![](https://static.mparticle.com/providerimg/forwarderlogo_231_Shopify.svg)](/integrations/shopify/)[![](https://static.mparticle.com/providerimg/forwarderlogo_131_Signal.svg)](/integrations/signal/)[![](https://static.mparticle.com/providerimg/forwarderlogo_87_SimpleReach.svg)](/integrations/simplereach/)[![](https://static.mparticle.com/providerimg/forwarderlogo_119_Singular.svg)](/integrations/singular/)[![](https://static.mparticle.com/providerimg/forwarderlogo_121_Skyhook.svg)](/integrations/skyhook/)[![](https://static.mparticle.com/providerimg/forwarderlogo_78_Slack.svg)](/integrations/slack/)[![](https://static.mparticle.com/providerimg/forwarderlogo_1031_Smadex.svg)](/integrations/smadex/)[![](https://static.mparticle.com/providerimg/forwarderlogo_1103_SmarterHQ.svg)](/integrations/smarterhq/)[![](https://static.mparticle.com/providerimg/forwarderlogo_115_Snapchat.svg)](/integrations/snapchat/)[![](https://static.mparticle.com/providerimg/forwarderlogo_164_SnapchatConversions.svg)](/integrations/snapchat-\nconversions/)[![](https://static.mparticle.com/providerimg/forwarderlogo_137_Snowflake.svg)](/integrations/snowflake/)[![](https://static.mparticle.com/providerimg/forwarderlogo_55_Snowplow.svg)](/integrations/snowplow/)[![](https://static.mparticle.com/providerimg/forwarderlogo_222_Split.svg)](/integrations/split/)[![](https://static.mparticle.com/providerimg/forwarderlogo_23_BugSenseEventForwarder.svg)](/integrations/splunk-\nmint/)[![](https://static.mparticle.com/providerimg/forwarderlogo_1169_Sprig.svg)](/integrations/sprig/)[![](https://static.mparticle.com/providerimg/forwarderlogo_1091_StartApp.svg)](/integrations/startapp/)[![](https://static.mparticle.com/providerimg/forwarderlogo_1211_Statsig.svg)](/integrations/statsig/)[![](https://static.mparticle.com/providerimg/forwarderlogo_1202_Stormly.svg)](/integrations/stormly/)[![](https://static.mparticle.com/providerimg/forwarderlogo_1145_Swrve.svg)](/integrations/swrve/)[![](https://static.mparticle.com/providerimg/forwarderlogo_1176_TalonOne.svg)](/integrations/talon-\none/)[![](https://static.mparticle.com/providerimg/forwarderlogo_40_Tapad.svg)](/integrations/tapad/)[![](https://static.mparticle.com/providerimg/forwarderlogo_1039_Tapjoy.svg)](/integrations/tapjoy/)[![](https://static.mparticle.com/providerimg/forwarderlogo_129_Taplytics.svg)](/integrations/taplytics/)[![](https://static.mparticle.com/providerimg/forwarderlogo_1094_Taptica.svg)](/integrations/taptica/)[![](https://static.mparticle.com/providerimg/forwarderlogo_1182_Teakio.svg)](/integrations/teak/)[![](https://static.mparticle.com/providerimg/forwarderlogo_103_TheTradeDesk.svg)](/integrations/the-\ntrade-\ndesk/)[![](https://static.mparticle.com/providerimg/forwarderlogo_246_Ticketure.svg)](/integrations/ticketure/)[![](https://static.mparticle.com/providerimg/forwarderlogo_1170_TikTok.svg)](/integrations/tiktok/)[![](https://static.mparticle.com/providerimg/forwarderlogo_1092_TreasureData.svg)](/integrations/treasure-\ndata/)[![](https://static.mparticle.com/providerimg/forwarderlogo_1250_TritonDigital.svg)](/integrations/triton-\ndigital/)[![](https://static.mparticle.com/providerimg/forwarderlogo_1224_TUNE.svg)](/integrations/tune/)[![](https://static.mparticle.com/providerimg/forwarderlogo_43_Twitter.svg)](/integrations/twitter/)[![](https://static.mparticle.com/providerimg/forwarderlogo_1166_Vkontakte.svg)](/integrations/vkontakte/)[![](https://static.mparticle.com/providerimg/forwarderlogo_1248_Voucherify.svg)](/integrations/voucherify/)[![](https://static.mparticle.com/providerimg/forwarderlogo_1159_Vungle.svg)](/integrations/vungle/)[![](https://static.mparticle.com/providerimg/forwarderlogo_51_Webhook.svg)](/integrations/webhook/)[![](https://static.mparticle.com/providerimg/forwarderlogo_96_Webtrends.svg)](/integrations/webtrends/)[![](https://static.mparticle.com/providerimg/forwarderlogo_1201_WhiteLabelLoyalty.svg)](/integrations/whitelabelloyalty/)[![](https://static.mparticle.com/providerimg/forwarderlogo_90_Wootric.svg)](/integrations/wootric/)[![](https://static.mparticle.com/providerimg/forwarderlogo_50_AppNexus.svg)](/integrations/xandr/)[![](https://static.mparticle.com/providerimg/forwarderlogo_155_VerizonMedia.svg)](/integrations/yahoo/)[![](https://static.mparticle.com/providerimg/forwarderlogo_244_Yotpo.svg)](/integrations/yotpo/)[![](https://static.mparticle.com/providerimg/forwarderlogo_1067_YouAppi.svg)](/integrations/youappi/)[![](https://static.mparticle.com/providerimg/forwarderlogo_1183_Z2ADigital.svg)](/integrations/z2adigital/)[![](https://static.mparticle.com/providerimg/forwarderlogo_203_Zendesk.svg)](/integrations/zendesk/)\n\n[DOCS](/)Last Updated: 28/02/2025, 01:15:31\n\n### CDP\n\n  * [mParticle Docs](/)\n  * [Home](/)\n  * [Guides](/guides/)\n  * [Developers](/developers/)\n  * [Integrations](/integrations/)\n\n### Analytics\n\n  * [Analytics Docs](https://support.mparticle.com/hc/en-us/categories/11229686709645)\n  * [Overview](https://support.mparticle.com/hc/en-us/categories/11229701873421)\n  * [Getting Started](https://support.mparticle.com/hc/en-us/categories/11229686709645)\n  * [Developers](https://support.mparticle.com/hc/en-us/categories/11229725035533)\n  * [Expert Training](https://support.mparticle.com/hc/en-us/categories/11229720711693)\n\n### Predictive AI\n\n  * [Cortex Docs](https://www.vidora.com/docs/)\n  * [Overview](https://www.vidora.com/docs/?top-category=overview)\n  * [Getting Started](https://www.vidora.com/docs/?top-category=getting-started)\n  * [Developers](https://www.vidora.com/docs/?top-category=developer-docs)\n  * [Using Cortex](https://www.vidora.com/docs/?top-category=using-cortex)\n\n### Learn More\n\n  * [Blog](https://www.mparticle.com/blog/)\n  * [Podcast](https://www.mparticle.com/connected-podcast/)\n  * [Resources](https://www.mparticle.com/resources/)\n  * [Community](https://www.reddit.com/r/mparticle/)\n  * [Change log](https://changelog.mparticle.com/en)\n\n### Get in Touch\n\n  * [Help Center](https://support.mparticle.com/hc/en-us)\n  * [Demo](https://demo.mparticle.com/activity/app)\n  * [Become a Partner](https://www.mparticle.com/partner/)\n\n© 2025 mParticle, Inc. All rights\nreserved.[mParticle.com](https://www.mparticle.com/)[Privacy\nPolicy](https://www.mparticle.com/privacypolicy/)[Cookie\nPolicy](https://www.mparticle.com/cookie-policy/)Do not sell or share my\npersonal dataDo Not Sell or Share My Personal Data\n\n",
+      "url": "https://docs.mparticle.com/integrations/"
+    }
+  ],
+  "keywords": {
+    "creating": [
+      "Creating User Profiles in mParticle"
+    ],
+    "profiles": [
+      "Creating User Profiles in mParticle"
+    ],
+    "user": [
+      "Creating User Profiles in mParticle"
+    ],
+    "in": [
+      "Creating User Profiles in mParticle"
+    ],
+    "mparticle": [
+      "Creating User Profiles in mParticle",
+      "mParticle CLI"
+    ],
+    "started": [
+      "Get Started"
+    ],
+    "get": [
+      "Get Started"
+    ],
+    "guides": [
+      "Guides"
+    ],
+    "docs": [
+      "Developer Docs"
+    ],
+    "developer": [
+      "Developer Docs"
+    ],
+    "sdk": [
+      "Client SDK",
+      "Server SDK"
+    ],
+    "client": [
+      "Client SDK"
+    ],
+    "untitled": [
+      "Untitled"
+    ],
+    "server": [
+      "Server SDK"
+    ],
+    "events": [
+      "Events API"
+    ],
+    "api": [
+      "Events API",
+      "Bulk Profile Deletion API",
+      "Data Subject Request API",
+      "ID Sync API"
+    ],
+    "deletion": [
+      "Bulk Profile Deletion API"
+    ],
+    "bulk": [
+      "Bulk Profile Deletion API"
+    ],
+    "profile": [
+      "Bulk Profile Deletion API"
+    ],
+    "data": [
+      "Data Subject Request API",
+      "Data Hosting"
+    ],
+    "request": [
+      "Data Subject Request API"
+    ],
+    "subject": [
+      "Data Subject Request API"
+    ],
+    "sync": [
+      "ID Sync API"
+    ],
+    "id": [
+      "ID Sync API"
+    ],
+    "cli": [
+      "mParticle CLI"
+    ],
+    "hosting": [
+      "Data Hosting"
+    ],
+    "integrations": [
+      "Integrations"
+    ]
+  },
+  "sections": {
+    "Get Started": [
+      "Get Started"
+    ],
+    "1\\. Collect": [
+      "Get Started"
+    ],
+    "2\\. Validate": [
+      "Get Started"
+    ],
+    "3\\. Connect": [
+      "Get Started"
+    ],
+    "Do more with mParticle": [
+      "Get Started"
+    ],
+    "Identity": [
+      "Get Started"
+    ],
+    "Data Master": [
+      "Get Started"
+    ],
+    "Audiences": [
+      "Get Started"
+    ],
+    "Custom Rules": [
+      "Get Started"
+    ],
+    "User Activity View": [
+      "Get Started"
+    ],
+    "User Privacy": [
+      "Get Started"
+    ],
+    "Events API": [
+      "Get Started",
+      "Developer Docs",
+      "Events API"
+    ],
+    "Profile API": [
+      "Get Started",
+      "Developer Docs",
+      "Events API"
+    ],
+    "Firehose API": [
+      "Get Started"
+    ],
+    "Inputs": [
+      "Get Started"
+    ],
+    "Outputs": [
+      "Get Started"
+    ],
+    "CDP": [
+      "Get Started",
+      "Guides",
+      "Developer Docs",
+      "Integrations"
+    ],
+    "Analytics": [
+      "Get Started",
+      "Guides",
+      "Developer Docs",
+      "Integrations"
+    ],
+    "Predictive AI": [
+      "Get Started",
+      "Guides",
+      "Developer Docs",
+      "Integrations"
+    ],
+    "Learn More": [
+      "Get Started",
+      "Guides",
+      "Developer Docs",
+      "Integrations"
+    ],
+    "Get in Touch": [
+      "Get Started",
+      "Guides",
+      "Developer Docs",
+      "Integrations"
+    ],
+    "Guides": [
+      "Guides"
+    ],
+    "Developer Docs": [
+      "Developer Docs"
+    ],
+    "Quickstart": [
+      "Developer Docs"
+    ],
+    "Learn about mParticle": [
+      "Developer Docs"
+    ],
+    "SDK": [
+      "Developer Docs"
+    ],
+    "Client SDK": [
+      "Developer Docs",
+      "Client SDK"
+    ],
+    "Server SDK": [
+      "Developer Docs",
+      "Client SDK",
+      "Server SDK"
+    ],
+    "Media SDK": [
+      "Developer Docs",
+      "Client SDK"
+    ],
+    "API": [
+      "Developer Docs"
+    ],
+    "Bulk Profile Deletion API": [
+      "Developer Docs",
+      "Events API",
+      "Bulk Profile Deletion API"
+    ],
+    "Calculated Attributes API": [
+      "Developer Docs",
+      "Events API"
+    ],
+    "Custom Access Roles API": [
+      "Developer Docs",
+      "Events API"
+    ],
+    "Data Planning API": [
+      "Developer Docs",
+      "Events API"
+    ],
+    "Data Subject Request API": [
+      "Developer Docs",
+      "Events API",
+      "Data Subject Request API"
+    ],
+    "ID Sync API": [
+      "Developer Docs",
+      "Events API",
+      "ID Sync API"
+    ],
+    "Platform API": [
+      "Developer Docs",
+      "Events API"
+    ],
+    "Pixel Service API": [
+      "Developer Docs",
+      "Events API"
+    ],
+    "Group Identity API": [
+      "Developer Docs",
+      "Events API"
+    ],
+    "Warehouse Sync API": [
+      "Developer Docs",
+      "Events API"
+    ],
+    "Tools": [
+      "Developer Docs"
+    ],
+    "mParticle CLI": [
+      "Developer Docs",
+      "mParticle CLI"
+    ],
+    "Smartype": [
+      "Developer Docs",
+      "mParticle CLI"
+    ],
+    "Smartype Linting": [
+      "Developer Docs",
+      "mParticle CLI"
+    ],
+    "More Guides": [
+      "Developer Docs"
+    ],
+    "Data Hosting": [
+      "Developer Docs",
+      "Data Hosting"
+    ],
+    "ComposeID": [
+      "Developer Docs",
+      "Data Hosting"
+    ],
+    "Glossary": [
+      "Developer Docs",
+      "Data Hosting"
+    ],
+    "Partners": [
+      "Developer Docs",
+      "Data Hosting"
+    ],
+    "Rules": [
+      "Developer Docs",
+      "Data Hosting"
+    ],
+    "Segment Migration": [
+      "Developer Docs",
+      "Data Hosting"
+    ],
+    "Documentation": [
+      "Integrations"
+    ],
+    "Integrations": [
+      "Integrations"
+    ]
+  }
+}

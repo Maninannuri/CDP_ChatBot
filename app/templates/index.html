@@ -1,0 +1,263 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="app-container">
+    <header class="chat-header">
+        <div class="chat-header-top">
+            <div class="chat-title">
+                <div class="chat-title-icon">
+                    <i class="fas fa-robot"></i>
+                </div>
+                <h1>CDP Assistant</h1>
+            </div>
+            <div class="header-actions">
+                <button class="header-btn" id="themeToggle" title="Toggle theme">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <button class="header-btn" id="clearChat" title="Clear chat">
+                    <i class="fas fa-trash-alt"></i>
+                </button>
+                <button class="header-btn" id="infoBtn" title="Information">
+                    <i class="fas fa-info-circle"></i>
+                </button>
+            </div>
+        </div>
+        <div class="cdp-tabs">
+            <button class="cdp-tab active" data-cdp="segment">
+                <i class="fas fa-chart-line"></i>
+                Segment
+            </button>
+            <button class="cdp-tab" data-cdp="mparticle">
+                <i class="fas fa-mobile-alt"></i>
+                mParticle
+            </button>
+            <button class="cdp-tab" data-cdp="lytics">
+                <i class="fas fa-users"></i>
+                Lytics
+            </button>
+            <button class="cdp-tab" data-cdp="zeotap">
+                <i class="fas fa-project-diagram"></i>
+                Zeotap
+            </button>
+        </div>
+    </header>
+
+    <!-- Chat Body -->
+    <div class="chat-body">
+        <div class="chat-main">
+            <div id="messagesContainer" class="messages-container">
+                <!-- Initial welcome message -->
+                <div class="message bot-message">
+                    <div class="bot-message-header">
+                        <div class="bot-icon">
+                            <i class="fas fa-robot"></i>
+                        </div>
+                        <h4>Welcome! 👋</h4>
+                    </div>
+                    <p>Hi! I'm your CDP Assistant. I can help you with:</p>
+                    <ul>
+                        <li><strong>Segment</strong> - setting up sources and tracking</li>
+                        <li><strong>mParticle</strong> - user profiles and identity</li>
+                        <li><strong>Lytics</strong> - audiences and activation</li>
+                        <li><strong>Zeotap</strong> - data integration</li>
+                    </ul>
+                    <p>How can I assist you today?</p>
+                </div>
+                
+                <!-- Typing indicator -->
+                <div id="typingIndicator" class="typing-indicator" style="display: none;">
+                    <div class="typing-bubble">
+                        <div class="typing-dots">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Input Area -->
+            <div class="chat-input-container">
+                <form id="chatForm" class="input-wrapper">
+                    <input type="text" class="input-field" id="userInput" placeholder="Ask about CDPs..." required autocomplete="off">
+                    <button type="submit" class="send-btn">
+                        <i class="fas fa-paper-plane"></i>
+                    </button>
+                </form>
+                
+                <div class="suggestions">
+                    <div class="suggestions-title">Try asking about:</div>
+                    <div class="suggestion-chips">
+                        <div class="suggestion-chip">How to set up Segment sources?</div>
+                        <div class="suggestion-chip">Creating mParticle profiles</div>
+                        <div class="suggestion-chip">Building Lytics audiences</div>
+                        <div class="suggestion-chip">Zeotap integration guide</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+const chatMessages = document.getElementById('messagesContainer');
+const questionForm = document.getElementById('chatForm');
+const questionInput = document.getElementById('userInput');
+
+// Chat History
+let chatHistory = [];
+
+// Initialize
+document.addEventListener('DOMContentLoaded', () => {
+    questionInput.focus();
+    
+    // Load chat history if available
+    const savedHistory = localStorage.getItem('cdpChatHistory');
+    if (savedHistory) {
+        try {
+            chatHistory = JSON.parse(savedHistory);
+            renderChatHistory();
+        } catch (e) {
+            console.error('Error loading chat history:', e);
+            localStorage.removeItem('cdpChatHistory');
+        }
+    }
+    
+    // Handle suggestions
+    document.querySelectorAll('.suggestion-chip').forEach(button => {
+        button.addEventListener('click', () => {
+            questionInput.value = button.textContent;
+            questionForm.dispatchEvent(new Event('submit'));
+        });
+    });
+    
+    // Add global error handler
+    window.addEventListener('error', function(e) {
+        console.error('Global error:', e.error);
+        addMessageToChat('bot', {
+            title: 'Error',
+            answer: 'Sorry, something went wrong. Please try refreshing the page.'
+        });
+    });
+});
+
+// Handle form submission
+questionForm.addEventListener('submit', async (e) => {
+    e.preventDefault();
+    
+    const question = questionInput.value.trim();
+    if (!question) return;
+    
+    // Add user message
+    addMessageToChat('user', { question });
+    
+    // Show loading indicator
+    document.getElementById('typingIndicator').style.display = 'block';
+    
+    // Clear input
+    questionInput.value = '';
+    
+    try {
+        const response = await fetch('/ask', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/x-www-form-urlencoded',
+            },
+            body: `question=${encodeURIComponent(question)}`
+        });
+        
+        const data = await response.json();
+        addMessageToChat('bot', data);
+        
+    } catch (error) {
+        console.error('Error:', error);
+        addMessageToChat('bot', {
+            title: 'Error',
+            answer: 'Sorry, something went wrong. Please try again.'
+        });
+    } finally {
+        // Hide loading indicator
+        document.getElementById('typingIndicator').style.display = 'none';
+    }
+});
+
+function addMessageToChat(type, content) {
+    const messageDiv = document.createElement('div');
+    messageDiv.className = `message ${type}-message`;
+    
+    if (type === 'user') {
+        messageDiv.innerHTML = `<p>${content.question}</p>`;
+    } else {
+        messageDiv.innerHTML = `
+            <h4>${content.title || 'Response'}</h4>
+            ${content.answer}
+        `;
+    }
+    
+    chatMessages.appendChild(messageDiv);
+    messageDiv.scrollIntoView({ behavior: 'smooth' });
+    
+    // Save to history
+    chatHistory.push({ type, content });
+    localStorage.setItem('cdpChatHistory', JSON.stringify(chatHistory));
+}
+
+function renderChatHistory() {
+    chatHistory.forEach(msg => addMessageToChat(msg.type, msg.content));
+}
+
+// Add theme toggle functionality
+const themeToggle = document.getElementById('themeToggle');
+themeToggle.addEventListener('click', () => {
+    document.body.classList.toggle('light-theme');
+    const icon = themeToggle.querySelector('i');
+    icon.classList.toggle('fa-moon');
+    icon.classList.toggle('fa-sun');
+    localStorage.setItem('theme', document.body.classList.contains('light-theme') ? 'light' : 'dark');
+});
+
+// Initialize theme
+if (localStorage.getItem('theme') === 'light') {
+    document.body.classList.add('light-theme');
+    themeToggle.querySelector('i').classList.replace('fa-moon', 'fa-sun');
+}
+
+// Clear Chat functionality
+document.getElementById('clearChat').addEventListener('click', () => {
+    if (confirm('Are you sure you want to clear the chat history?')) {
+        // Keep only the welcome message
+        while (chatMessages.children.length > 1) {
+            chatMessages.removeChild(chatMessages.lastChild);
+        }
+        
+        // Clear local storage
+        localStorage.removeItem('cdpChatHistory');
+        chatHistory = [];
+        
+        // Show confirmation message
+        addMessageToChat('bot', {
+            title: 'Chat Cleared',
+            answer: 'Chat history has been cleared. How can I help you?'
+        });
+    }
+});
+
+// Info button functionality
+document.getElementById('infoBtn').addEventListener('click', () => {
+    addMessageToChat('bot', {
+        title: 'About CDP Assistant',
+        answer: `
+        <p>CDP Assistant helps you with:</p>
+        <ul>
+            <li>Setting up and configuring CDP platforms</li>
+            <li>Understanding CDP features and capabilities</li>
+            <li>Troubleshooting common issues</li>
+            <li>Best practices for data collection and management</li>
+        </ul>
+        <p>Version: 1.0.0</p>
+        <p>For support, contact: support@cdpassistant.com</p>
+        `
+    });
+});
+</script>
+{% endblock %}

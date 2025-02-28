@@ -1,0 +1,22 @@
+[
+  {
+    "title": "Data Integration with Zeotap",
+    "content": "\n                To integrate data with Zeotap:\n                1. Set up a Zeotap account\n                2. Configure data source connections\n                3. Define data mapping schema\n                4. Set up identity resolution rules\n                5. Configure data export destinations\n                \n                Integration methods:\n                - API integration\n                - Batch file uploads\n                - Server-to-server connections\n                - Tag management systems\n                ",
+    "url": "https://docs.zeotap.com/docs/"
+  },
+  {
+    "title": "Browse by product",
+    "content": "Learn how to use Zeotap CDP to collect, unify and activate your customer data\nacross multiple platforms.\n\n[ ![Unify Logo](/resources/Storage/Stars.png) **Get Started with Zeotap CDP**\n**  \n**  \nLearn how to use the different modules within Zeotap CDP and get started.\n](https://docs.zeotap.com/articles/#!get-started-guide/getting-started/)\n\n##  **Browse by product**\n\n[ ![Integrate Logo](/resources/Storage/Integrate%20\\(2\\).png)  \n**Integrate**  \n  \nDiscover how to use **Sources** and **Destinations** to integrate your\ndisparate data sources and activate your data across platforms. ****\n](https://docs.zeotap.com/articles/#!integrate-customer/integrate)\n\n[ ![Unify Logo](/resources/Storage/unify.png)  \n**Unify**  \nDiscover how to use **Catalogue** , **Calculated Attributes** and **ID\nStrategy** to unify your customer data.\n](https://docs.zeotap.com/articles/#!unify-customer/unify)\n\n[ ![Segment Logo](/resources/Storage/segment.png)  \n**Segment**  \nDiscover how to use **Audiences** to create cohorts and activate your customer\ndata. ](https://docs.zeotap.com/articles/#!segment-customer/segment)\n\n[ ![Orchestrate Logo](/resources/Storage/Orchestrate%20\\(1\\).png)  \n**Orchestrate**  \nDiscover how to use **Journeys** to orchestrate personalised workflows with\nactionable recommendations. ](https://docs.zeotap.com/articles/#!orchestrate-\ncustomer/orchestrate)\n\n[ ![Analyse Logo](/resources/Storage/analyze.png)  \n**Dashboard**  \nDiscover how to use **Dashboard** to analyse your platform usage, exploring\nconsumption metrics and more. ](https://docs.zeotap.com/articles/#!dashboard-\ncustomer/overview)\n\n[ ![Protect Logo](/resources/Storage/protect%20\\(1\\).png)  \n**Protect**  \nDiscover how to use **Consent, Customer 360** and **Data Lifecycle** to\nprotect your customer data by being compliant with regulatory frameworks.\n](https://docs.zeotap.com/articles/#!protect-customer/protect)\n\n##  **Do more with Zeotap**\n\n[ ![Target Icon](/resources/Storage/Group 427319166.png)  \n**Target**  \nDiscover how to use **Target** to create and activate deterministic third-\nparty Audience. ](https://docs.zeotap.com/articles/#!targeting-\ncustomer/2969141372)\n\n[ ![ID+ Icon](/resources/Storage/Group 427319160.png)  \n**ID+**  \nDiscover how to use **ID+** to create custom journeys and provide optimal\nactions. ](https://docs.zeotap.com/articles/#!id-publication/basic-\nintegration-guide_v2)\n\n[ ![Admin Icon](/resources/Storage/Group%20427319168%20\\(1\\).png)  \n**Admin**  \nDiscover how to use **Admin** to create organisations and add users with\nspecific roles and access. ](https://docs.zeotap.com/articles/#!admin-\ncustomer/admin)\n\n",
+    "url": "https://docs.zeotap.com/home/en-us/"
+  },
+  {
+    "title": "",
+    "content": "\n\n![CDP image](https://content.zeotap.com/img/zeotap-login-image1.svg)\n\n# ![Unity logo\nlogo](https://ok9static.oktacdn.com/fs/bco/1/fs09iwu6lm0q0LUfL417)\n\n## Sign In\n\nSign in with Google\n\nOR\n\nUsername\n\nNeed help signing in?\n\n  * Forgot password?\n  * Unlock account?\n  * [Help](https://login.zeotap.com/help/login)\n\n",
+    "url": "https://docs.zeotap.com/docs/"
+  },
+  {
+    "title": "Sign In",
+    "content": "\n\n## Sign In\n\nSign in with Google\n\nOR\n\nUsername\n\nNeed help signing in?\n\n  * Forgot password?\n  * Unlock account?\n  * [Help](https://login.zeotap.com/help/login)\n\n",
+    "url": "https://docs.zeotap.com/docs/"
+  }
+]

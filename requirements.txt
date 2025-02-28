@@ -1,0 +1,36 @@
+# Core web dependencies
+fastapi==0.104.1
+uvicorn==0.24.0
+python-multipart==0.0.6
+jinja2==3.1.2
+markdown==3.5.1
+
+# Build dependencies
+setuptools>=65.5.1
+
+# HTTP and parsing
+requests==2.31.0
+beautifulsoup4==4.12.2
+html2text==2020.1.16
+
+# Utilities
+python-dotenv==1.0.0
+
+# WebDriver
+selenium==4.15.2
+webdriver-manager==4.0.1
+undetected-chromedriver==3.5.3
+
+# Machine Learning and NLP
+numpy>=2.1.0
+scipy>=1.11.3
+scikit-learn>=1.6.0
+sentence-transformers==2.5.1
+torch>=2.2.0
+transformers>=4.37.2
+
+# Image processing
+pillow>=10.2.0
+
+# Process management
+psutil>=5.9.0
